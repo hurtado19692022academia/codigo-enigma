@@ -1,0 +1,92 @@
+.content{
+    text-align: center;
+}
+.video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+h1{
+    font-family: 'Teko', sans-serif;
+    line-height: 8px;
+    color: blanchedalmond;
+    -webkit-text-stroke: 2.2px rgb(36, 23, 92);
+    font-size: 50px;
+    position: relative;
+}
+.cifra{
+    background-color: rgba(16, 25, 102, 0.425);
+    padding-top: 25px;
+    padding-bottom: 30px;
+    float: inline-start;
+    position: relative;
+    top: -30px;
+}
+
+h3, label{
+    font-family: "arial", sans-serif; 
+    color: rgb(245, 242, 242);   
+    -webkit-text-stroke: 0.6px rgb(167, 202, 248);
+}
+p{
+    font-family: "arial", sans-serif; 
+    color: rgb(245, 242, 242);  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+input{
+    font-family: "digital", sans-serif;
+    font-size: 20px;
+    background-color: rgba(8, 8, 8, 0.295);
+    color: rgb(245, 242, 242); 
+    text-decoration: none;
+}
+textarea{
+    font-family: "digital", sans-serif;
+    font-size: 20px;
+    background-color: rgba(8, 8, 8, 0.295);
+    color: rgb(245, 242, 242); 
+    resize: none;
+}
+
+/*RIDDLE CODE*/
+.monito{
+    width: 100px;
+}
+.botonInicio{
+    text-align: center;
+    margin-top: 18%;
+}
+.botoM{
+    border-radius: 60px;
+    padding: 0px;
+    box-shadow: 0px 0px 20px 13px rgba(0, 0, 0, 0.568);
+}
+
+/* DISEÑO DE LOS BOTONES*/
+.btn{
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.priv{
+    position: relative;
+    top: 24px;
+    background-color: rgba(16, 25, 102, 0.425);
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    position: relative;
+}
+.imh{
+    width: 30px;
+}
